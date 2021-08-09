@@ -10,7 +10,7 @@ if (isset($_GET['id']))
     $result = $stmt->get_result();
     if ($result->num_rows != 0)
     {
-        $num_rows = $results->num_rows;
+        $num_rows = $result->num_rows;
         $row = $result->fetch_assoc();
         $title = $row['post_title'];
         $date = date_create($row['post_date']);
