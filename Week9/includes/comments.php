@@ -17,7 +17,7 @@
         </div>
         <div class="row comments">
             <?php foreach ($comments->comments as $comment): ?>
-                <?php $comment = Security::cleanOutput($comment); ?>
+                <?php $comment = sanitizeArray($comment); ?>
                 <?php
                     if (isset($_SESSION['user_id']) && $_SESSION['user_id'] == $comment['comment_user'] || $_SESSION['user_role'] == 1)
                         $button = "<button class='btn float-right btn-sm btn-outline-danger delete-post' data-comment-id='{$comment['CID']}'>X</button>";
@@ -26,7 +26,7 @@
                     $thumbsdownclass = "";
                     $thumbsupclass = "";
                     $theid = $comment['CID'];
-                    $thereview = array_filter($reviews->reviews, function ($data) use ($theid) {return $data['comment_id'] == $theid;});
+                    $thereview = array_filter($reviews->reviews, function ($data) use ($theid) {return $data['comment_id'] === $theid;});
                     if (!empty($thereview))
                     {
                         foreach ($thereview as $key)
@@ -58,12 +58,12 @@
                     <div class='col-md-12 mt-2 mb-2 comment'>
                         <div class='card'>
                             <div class='card-header'>
-                                <a href='user.php?id=<?php echo $comment['CID']; ?>' class='comment-user-id' data-comment-user-id='<?php echo $comment['UID']; ?>'><?php echo $comment['user_name']; ?></a> | <?php echo $comment['date_created']; ?>
+                                <a href='user.php?id=<?php echo $comment['UID']; ?>' class='comment-user-id' data-comment-user-id='<?php echo $comment['UID']; ?>'><?php echo $comment['user_name']; ?></a> | <?php echo $comment['date_created']; ?>
                                 <nav class="comment-thumb">
                                     <ul class="nav float-right">
-                                        <li class="nav-item"><ion-icon name="thumbs-up-outline" class="<?php echo $thumbsupclass; ?>" data-review-value="2" data-review-type="thumb"></ion-icon></li>
+                                        <li class="nav-item"><ion-icon name="thumbs-up-outline" class="thumb <?php echo $thumbsupclass; ?>" data-review-value="2" data-review-type="thumb"></ion-icon></li>
                                         <li class="nav-item thumbs-up-val"><?php echo $thumbsup; ?></li>
-                                        <li class="nav-item"><ion-icon name="thumbs-down-outline" class="<?php echo $thumbsdownclass; ?>" data-review-value="1" data-review-type="thumb"></ion-icon></li>
+                                        <li class="nav-item"><ion-icon name="thumbs-down-outline" class="thumb <?php echo $thumbsdownclass; ?>" data-review-value="1" data-review-type="thumb"></ion-icon></li>
                                         <li class="nav-item thumbs-down-val"><?php echo $thumbsdown; ?></li>
                                     </ul>
                                 </nav>
@@ -113,7 +113,7 @@
                         ?>
                         <div class='col-md-11 offset-md-1 mt-2 mb-2 comment'>
                             <div class='card'>
-                                <div class='card-header' style='background: lightgray;'>
+                                <div class='card-header' style="background: lightgray;">
                                     <a href='user.php?id=<?php echo $reply['UID']; ?>' class='comment-user-id' data-comment-user-id='<?php echo $reply['UID']; ?>'><?php echo $reply['user_name']; ?></a> <em>replying to </em> <?php echo $reply['response_to_user']; ?> | <?php echo $reply['date_created']; ?>
                                     <nav class="comment-thumb">
                                         <ul class="nav float-right">
