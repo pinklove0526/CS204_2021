@@ -1,6 +1,7 @@
 # CS204 - Advanced Web Programming
 A list of websites (including source codes) using Bootstrap 5, Ionicons 5, PHP, CSS, JavaScript and MySQL database.
 # Included in this repository
+(This list will be updated).
 + Week 6: ITEC blog with functional approach (not done yet)
 + Week 7: WordPress with AJAX
 + Week 9: ITEC blog with object-oriented programming (OOP) approach
