@@ -1,0 +1,1 @@
+select wpp.post_author, COUNT (wpp.post_title) from wp_posts wpp
