@@ -1,0 +1,136 @@
+.jumbotron
+{
+    background: url(https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-technology-future-25d-isometric-gradient-background-5disometricgradientbackground-image_53995.jpg);
+    text-shadow: 1px 1px 1px black;
+    background-size: cover;
+    background-position-y: top;
+}
+
+.error
+{
+    color: red;
+    font-style: italic;
+}
+
+button
+{
+    cursor: pointer;
+}
+
+button a
+{
+    color: white !important;
+}
+
+.post img
+{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.reply .card-header
+{
+    background: #CACACA;
+}
+
+.shrinkStart
+{
+    height: 200px;
+    transform: scale(1);
+    transition: transform 500ms, height 800ms;
+}
+
+.shrinkFinish
+{
+    height: 0px;
+    transform: scale(0);
+}
+
+.card button
+{
+    opacity: .4;
+    transition: opacity 300ms;
+}
+
+.card:hover button
+{
+    opacity: 1;
+}
+
+.overlay
+{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #000000B5;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+.overlay .alert
+{
+    width: 50%;
+    margin: 40vh auto;
+}
+
+.comment-wrapper
+{
+    transform: scaleY(1);
+    background: none;
+    padding: 0px;
+    transition: transform 500ms, background 400ms, padding 400ms;
+}
+
+.shrink
+{
+    transform: scaleY(0);
+}
+
+form.comment-form
+{
+    padding: 0px;
+}
+
+.active-reply
+{
+    background: #F5F5F5;
+    padding: 12px;
+    box-shadow: 1px 1px 4px #B2B2B2;
+}
+
+nav.comment-thumb
+{
+    display: inline;
+    color: gray;
+}
+
+nav.comment-thumb li
+{
+    margin: 0px 3px !important;
+}
+
+nav.comment-thumb ion-icon
+{
+    transform: scale(1);
+    color: gray;
+    transition: transform 200ms, color 200ms;
+    cursor: pointer;
+}
+
+nav.comment-thumb ion-icon:hover
+{
+    color: #FFC107;
+    transform: scale(1.2);
+    text-shadow: 1px 1px 2px darkgray;
+}
+
+ion-icon.thumb.active
+{
+    color: #FFC107;
+    transform: scale(1.2);
+    text-shadow: 1px 1px 2px darkgray;
+}
