@@ -1,0 +1,39 @@
+.jumbotron
+{
+    background: url("https://img5.goodfon.com/wallpaper/nbig/3/98/abstraktnyi-geometricheskii-linii-background-fon.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    text-shadow: 1px 1px 1px black;
+}
+
+.error
+{
+    color: red;
+    font-style: italic;
+}
+
+button a
+{
+    color: white !important;
+}
+
+.post img
+{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.shrinkStart
+{
+    height: 200px;
+    transform: scale(1);
+    transition: transform 500ms, height 800ms;
+}
+
+.shrinkFinish
+{
+    height: 0px;
+    transform: scale(0);
+}
