@@ -1,0 +1,29 @@
+        <footer class="bg-dark text-center text-white mt-3">
+            <div class="container p-4">
+                <section class="mb-4">
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><ion-icon name="logo-google"></ion-icon></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><ion-icon name="logo-github"></ion-icon></a>
+                </section>
+                <section class="mb-4"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></section>
+                <section class=""></section>
+            </div>
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">© <?php echo date("Y/m/d H:i:s"); ?> Copyright: <a class="text-white" href="#">ITEC</a></div>
+        </footer>
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+        -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

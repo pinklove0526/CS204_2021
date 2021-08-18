@@ -1,0 +1,15 @@
+.jumbotron.jumbotron-fluid
+{
+    background: url(images/gradient-geometric-background_52683-54199-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-shadow: 1px 1px 2px white;
+}
+
+.article
+{
+    background: url(images/pngtree-abstract-80s-trendy-geometric-background-neon-colors-image_304908-2.jpg) !important;
+    text-shadow: 1px 1px 2px black !important;
+    color: white !important;
+    background-size: cover !important;
+}
