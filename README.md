@@ -9,6 +9,8 @@ A list of websites (including source codes) using Bootstrap 5, Ionicons 5, PHP, 
 + Week 7: WordPress with AJAX
 + Week 9: ITEC blog with object-oriented programming (OOP) approach
 + Week 10: Website security, including cross-site request forgery (CSRF)
++ Lab 1: Clone of the VeChain website (PHP version of the midterm website last term)
++ Lab 3: Same as Week 4, but with additional functions
 + Lab 5: Same as Week 6, but not functioning yet
 + Lab 6: A complete version of the website from Week 6
 + Lab 7: Same as Week 9, but lacks the main.js file
