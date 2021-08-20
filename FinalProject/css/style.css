@@ -1,0 +1,557 @@
+div[class*="background-bg"]
+{
+    background-color: #DAF7A6;
+}
+
+#navbar-list-2 ul li a
+{
+    text-align: center;
+}
+
+.display-2.text-light
+{
+    margin-top: 100px;
+}
+
+footer
+{
+    background-color: #DCDEE1;
+}
+
+nav ul li a
+{
+    color: white;
+    font-size: 0.8rem;
+    text-align: left;
+    margin-right: 3rem;
+}
+
+nav .right
+{
+    margin-left: 5rem;
+}
+
+body nav
+{
+    position: fixed;
+    z-index: 3;
+    padding: 1.6rem 6rem;
+    background-color: #151414;
+}
+
+nav .logo
+{
+    margin-right: 3rem;
+}
+
+nav ul
+{
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li
+{
+    list-style: none;
+}
+
+img
+{
+    width: 6rem;
+    vertical-align: middle;
+    border-style: none;
+    height: auto;
+    max-width: 100%;
+}
+
+.login-username
+{
+    width: 100%;
+    height: 3rem;
+    border-radius: 1.5rem;
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+    padding-left: 1rem;
+}
+
+.footer-dark
+{
+    padding: 50px 0;
+    color: #F0F9FF;
+    background-color: #282D32;
+}
+
+.footer-dark h3
+{
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-dark ul
+{
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.container
+{
+    padding: 0;
+}
+
+.footer-dark ul a
+{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.footer-dark ul a:hover
+{
+    opacity: 0.8;
+}
+
+@media (max-width: 767px)
+{
+    .footer-dark .item:not(.social)
+    {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .footer-dark .item.text
+    {
+        margin-bottom: 0;
+    }
+}
+
+.footer-dark .item.text
+{
+    margin-bottom: 36px;
+}
+
+.footer-dark .item.text p
+{
+    opacity: 0.6;
+    margin-bottom: 0;
+}
+
+.footer-dark .item.social
+{
+    text-align: center;
+}
+
+@media (max-width: 991px)
+{
+    .footer-dark .item.social
+    {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.footer-dark .item.social > a
+{
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    margin: 0 8px;
+    color: #FFF;
+    opacity: 0.75;
+}
+
+.footer-dark .item.social > a:hover
+{
+    opacity: 0.9;
+}
+
+.footer-dark .copyright
+{
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.p_lorem
+{
+    font-size: 16px;
+}
+
+.ion-chatbubble
+{
+    color: white;
+    float: right;
+    margin-right: 30px;
+    margin-top: 25px;
+}
+
+.item1
+{
+    flex-grow: 1;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.jumbotron .container
+{
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    height: 75vh;
+}
+
+.footer-dark .container
+{
+    display: inherit;
+}
+
+ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-section
+{
+    background: #151414;
+    position: relative;
+}
+
+.footer-cta
+{
+    border-bottom: 1px solid #373636;
+}
+
+.single-cta ion-icon
+{
+    color: #FFE514;
+    font-size: 30px;
+    float: left;
+    margin-top: 8px;
+}
+
+.cta-text
+{
+    padding-left: 15px;
+    display: inline-block;
+
+}
+
+.cta-text h4
+{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.cta-text span
+{
+    color: #757575;
+    font-size: 15px;
+}
+
+.footer-content
+{
+    position: relative;
+    z-index: 2;
+}
+
+.footer-pattern img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 330px;
+    background-size: cover;
+    background-position: 100% 100%;
+}
+
+.footer-logo
+{
+    margin-bottom: 30px;
+}
+
+.footer-logo img
+{
+    max-width: 200px;
+}
+
+.footer-text p
+{
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #7E7E7E;
+    line-height: 28px;
+}
+
+.footer-social-icon span
+{
+    color: #FFF;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+.footer-social-icon a
+{
+    color: #FFF;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.footer-social-icon ion-icon
+{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+}
+
+.facebook-bg
+{
+    background: #3B5998;
+}
+
+.twitter-bg
+{
+    background: #55ACEE;
+}
+
+.google-bg
+{
+    background: #DD4B39;
+}
+
+.footer-widget-heading h3
+{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.footer-widget-heading h3::before
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 2px;
+    width: 50px;
+    background: #FFE514;
+}
+
+.footer-widget ul li
+{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin-bottom: 12px;
+}
+
+.footer-widget ul li a:hover
+{
+    color: #FFE514;
+}
+
+.footer-widget ul li a
+{
+    color: #878787;
+    text-transform: capitalize;
+}
+
+.subscribe-form
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.subscribe-form input
+{
+    width: 100%;
+    padding: 14px 28px;
+    background: #2E2E2E;
+    border: 1px solid #2E2E2E;
+    color: #FFF;
+}
+
+.subscribe-form button
+{
+    position: absolute;
+    right: 0;
+    background: #FFE514;
+    padding: 13px 20px;
+    border: 1px solid #FFE514;
+    top: 0;
+}
+
+.subscribe-form button ion-icon
+{
+    color: #FFF;
+    font-size: 22px;
+    transform: rotate(-6deg);
+}
+
+.copyright-area
+{
+    background: #202020;
+    padding: 25px 0;
+}
+
+.copyright-text p
+{
+    margin: 0;
+    font-size: 14px;
+    color: #878787;
+}
+
+.copyright-text p a
+{
+    color: #FFE514;
+}
+
+.footer-menu li
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.footer-menu li:hover a
+{
+    color: #FFE514;
+}
+
+.footer-menu li a
+{
+    font-size: 14px;
+    color: #878787;
+}
+
+.paper-plane-outline::before
+{
+    content: "\f3fe";
+}
+
+*, ::after, ::before
+{
+    box-sizing: border-box;
+}
+
+.logo-facebook::before
+{
+    content: "\f39e";
+}
+
+.logo-twitter::before
+{
+    content: "\f099";
+}
+
+.logo-google::before
+{
+    content: "\f0d5";
+}
+
+ion-icon
+{
+    font-weight: 900;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.container-fluid
+{
+    padding: 0;
+    background: url(https://i.natgeofe.com/n/8022bf25-d5ef-48c1-b460-dbac1448e122/09-9226610_uploadsmember665562yourshot-665562-9226610jpg_igdjhxksrjifxjzu4rgbsw37bhp3eflutfvvbpyjwjhzlmh4iziq_3000x2000.jpg);
+    background-size: cover;
+}
+
+.img-fluid img
+{
+    height: 30rem;
+    object-fit: cover;
+}
+
+#carouselExampleIndicators
+{
+    height: 30rem;
+}
+
+.class-card
+{
+    padding: 2rem;
+}
+
+.form-control
+{
+    border-radius: 2rem;
+    background: rgba(255, 255, 255, 0.08);
+    transition: 0.3s;
+}
+
+.img-responsive img
+{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-responsive
+{
+    height: 100%;
+}
+
+.form-group
+{
+    display: flex;
+}
+
+.signup
+{
+    width: 100%;
+    border-radius: 3rem;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid white;
+    color: white;
+    padding: 6px 12px;
+}
+
+::placeholder
+{
+    color: white;
+    opacity: 1;
+}
+
+.logo-twitter
+{
+    color: #1DA1F2;
+}
+
+.logo-facebook
+{
+    color: #2D88FF;
+}
