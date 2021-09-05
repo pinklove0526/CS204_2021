@@ -18,6 +18,7 @@ A list of websites (including source codes) using Bootstrap 5, Ionicons 5, PHP, 
 + Lab 9: Same as Week 10, but with additional functions
 + Lab 10: ITEC To-do app (final review)
 + Midterm test (actual name: Solar System)
++ Template for the final exam (name: Classmates)
 # Build and run
 - Open these websites using your Web browser along with the solution stack that you're using (WAMP, LAMP, MAMP, XAMPP). Copy the source code files to the htdocs folder.
 # Updates
